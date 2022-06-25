@@ -1,0 +1,65 @@
+
+/* The body tag contains everything on the page */
+
+body{
+    font-family: "Cooper Hewitt", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background-color: #004d9d;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+h1, p{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+header{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+
+h1{
+    font-size: 24px;
+    font-weight: 400;
+}
+p{
+    font-size: 16px;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/sally_1.jpg);
+    background-size: cover;
+
+
+}
+
+
+footer{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+ul{
+    padding: 0;
+}
+li{
+    display: inline;
+    margin-right: 5px;
+    list-style: none;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #dddddd;
+}
